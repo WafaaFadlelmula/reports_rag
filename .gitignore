@@ -5,7 +5,7 @@ reports/
 # add chromadb folder to gitignore
 chromadb/
 # add output folder to gitignore
-output/
+outputs/
 # add myenv folder to gitignore
 myenv/
 # add .vscode folder to gitignore
