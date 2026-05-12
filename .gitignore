@@ -1,25 +1,26 @@
-# add reports folder to gitignore
+# Reports / generated documents
 reports/
-# add .env file to gitignore
-.env
-# add chromadb folder to gitignore
-chromadb/
-# add output folder to gitignore
 outputs/
-# add myenv folder to gitignore
+
+# Vector DB / local databases
+chroma_db/
+
+# Environment files
+.env
+
+# Virtual environments
 myenv/
-# add .vscode folder to gitignore
+venv/
+.venv/
+
+# IDE settings
 .vscode/
-# add .idea folder to gitignore
 .idea/
 
-# add __pycache__ folder to gitignore
+# Python cache files
 __pycache__/
+*.py[cod]
 
-# add python related files to gitignore
-*.pyc
-*.pyo
-*.pyd
-*.pyc
-*.pyo
-
+# OS files
+.DS_Store
+Thumbs.db
