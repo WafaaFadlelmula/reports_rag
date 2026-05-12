@@ -1,0 +1,25 @@
+# add reports folder to gitignore
+reports/
+# add .env file to gitignore
+.env
+# add chromadb folder to gitignore
+chromadb/
+# add output folder to gitignore
+output/
+# add myenv folder to gitignore
+myenv/
+# add .vscode folder to gitignore
+.vscode/
+# add .idea folder to gitignore
+.idea/
+
+# add __pycache__ folder to gitignore
+__pycache__/
+
+# add python related files to gitignore
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+
